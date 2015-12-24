@@ -15,10 +15,22 @@ h2 {
   font-size: 3.5em;
   text-transform: capitalize;
 }
+h3 {
+  text-align: center;
+  text-transform: capitalize;
+}
 p {
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  color: #999;
+  font-weight: 600;
 }
 /********************************************************
 Button Style
@@ -42,4 +54,55 @@ header {
 }
 header h2 {
   margin-top: 100px;
+}
+/********************************************************
+Features Section Style
+********************************************************/
+.features {
+  padding-top: 50px;
+}
+.content-box {
+  padding-left: 3%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+.image-box {
+  width: 40%;
+  padding-left: 11%;
+}
+.text-box {
+  width: 50%;
+  padding-left: 11%;
+}
+/********************************************************
+Mobile App Section
+********************************************************/
+.mobile-app {
+  margin-bottom: 50px;
+}
+.apple-store {
+  width: 150px;
+  height: auto;
+  margin-left: 33%;
+}
+.play-store {
+  width: 140px;
+  height: auto;
+  margin-left: 1%;
+}
+/********************************************************
+Footer Section
+********************************************************/
+footer {
+  border-top: 1px solid #eee;
+}
+.info-box {
+  margin-left: 11%;
+}
+@media (max-with: 988px) {
+  .col-md-6 img {
+    padding: 50px;
+    width: 100%;
+  }
 }
